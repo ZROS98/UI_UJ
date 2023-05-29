@@ -10,7 +10,8 @@ public class UIController : MonoBehaviour
     [field: SerializeField]
     private List<GameObject> ContentPrefabCollection { get; set; }
 
-    private int MaxContentPrefabCollectionCount { get; set; } = 4;
+    [field: SerializeField, Range(1, 4)]
+    private int MaxContentPrefabCollectionCount { get; set; }
 
     public void AddContentPrefab ()
     {
@@ -18,14 +19,14 @@ public class UIController : MonoBehaviour
         {
             return;
         }
-        
+
         GameObject currentContentPrefab = Instantiate(ContentPrefab, UIParent.transform);
         ContentPrefabCollection.Add(currentContentPrefab);
     }
 
     public void RemoveContentPrefab ()
     {
-        if (ContentPrefabCollection.Count <= 0)
+        if (ContentPrefabCollection.Count <= 1)
         {
             return;
         }

@@ -606,6 +606,7 @@ MonoBehaviour:
   <UIParent>k__BackingField: {fileID: 1999597042}
   <ContentPrefabCollection>k__BackingField:
   - {fileID: 8112333032823289218}
+  <MaxContentPrefabCollectionCount>k__BackingField: 2
 --- !u!1 &258240280
 GameObject:
   m_ObjectHideFlags: 0
@@ -1152,6 +1153,7 @@ MonoBehaviour:
   <UIParent>k__BackingField: {fileID: 388414861}
   <ContentPrefabCollection>k__BackingField:
   - {fileID: 1150117734}
+  <MaxContentPrefabCollectionCount>k__BackingField: 4
 --- !u!1 &416213936
 GameObject:
   m_ObjectHideFlags: 0
@@ -4466,6 +4468,7 @@ MonoBehaviour:
   <UIParent>k__BackingField: {fileID: 1934178270}
   <ContentPrefabCollection>k__BackingField:
   - {fileID: 453630835144202526}
+  <MaxContentPrefabCollectionCount>k__BackingField: 4
 --- !u!114 &1934178273
 MonoBehaviour:
   m_ObjectHideFlags: 0
